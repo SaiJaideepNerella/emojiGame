@@ -1,0 +1,60 @@
+.navbar-continer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 8px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 48px;
+  }
+}
+
+.logo-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-name {
+    font-size: 24px;
+  }
+}
+
+.score-container {
+  display: flex;
+}
+
+.score-board {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-board {
+    font-size: 24px;
+    margin-left: 32px;
+  }
+}
